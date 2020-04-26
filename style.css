@@ -1,0 +1,39 @@
+*{
+  font-family: Helvetica, Arial, sans-serif;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height:100vh;
+}
+.grid-item{
+    grid-column: 2;
+    grid-row: 1 ;
+    align-self: flex-end;
+}
+#myform{
+  display: flex;
+  flex-direction: column;
+}
+#myform *{
+  margin: .3em;
+}
+#myform label{
+  color: #222222;
+}
+#myform input, button{
+  height: 34px;
+  padding: 3px 12px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+button{
+  height: 40px;
+  background: #414141;
+  color: #ffffff;
+  align-self: flex-start;
+}
+.catpcha-container{
+  height: 100px;
+}

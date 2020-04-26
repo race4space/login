@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c3a9a099ae59723d4d7efeb4ca926acd",
+    "packages": [
+        {
+            "name": "race4space/php-lib-library",
+            "version": "2.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/race4space/php-lib-library.git",
+                "reference": "58affbd8c886804d5ccddfa84ee1fcc12c847bee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/race4space/php-lib-library/zipball/58affbd8c886804d5ccddfa84ee1fcc12c847bee",
+                "reference": "58affbd8c886804d5ccddfa84ee1fcc12c847bee",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "phplibrary\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "race4space",
+                    "email": "race4space@gmail.com"
+                }
+            ],
+            "description": "A PHP Library",
+            "time": "2020-04-14T14:58:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
